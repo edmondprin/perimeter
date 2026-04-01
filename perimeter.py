@@ -2,8 +2,6 @@
 
 import random 
 
-# where to enforce that 3 <= sides <= 6 
-
 def gen_question(sides):
     numbers = []
     for _ in range(sides):
@@ -69,9 +67,6 @@ def main():
         n, expected, answer_input, result = item
         print(f"{' + '.join(map(str, n))} | Correct answer: {expected} | Your answer: {answer_input} | {'Good!' if result else 'Oops!'}")
     
-
-
-
 
 if __name__ == "__main__":
     main()
