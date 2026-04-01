@@ -13,7 +13,7 @@
 * pytest test_perimeter.py<br />
 
 ## What it demonstrates
-* 3-layer architecture (separation of concerns), to make sure layer 1 and 2 functions are fully testable and do no contain side effects such as input or print statements.<br />
+* 3-layer architecture (separation of concerns), to make sure layer 1 and 2 functions are fully testable and do no contain side effects such as input or print statements. Layer 3 section gives the user options on what types of shapes they want to work on.<br />
 * Higher-order functions and dependency injection, allowing run_quiz() to be tested with a lambda function instead of real user input.<br />
-* Test-driven development with pytest: Thepytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.<br />
+* Test-driven development with pytest: The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.<br />
 * Mass testing with random iterations, to make sure edge cases are covered.<br />
