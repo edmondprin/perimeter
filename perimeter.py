@@ -1,4 +1,5 @@
-# layer 1
+# layer 1 (pure/testable functions)
+
 import random 
 
 # where to enforce that 3 <= sides <= 6 
@@ -18,7 +19,8 @@ def calculate_expected(my_list):
 def check_result(answer_input, expected):
     return answer_input == expected
 
-# layer 2
+
+# layer 2 (workflow)
 
 def run_quiz(iterations, sides, answer_func):
     points = 0
@@ -38,8 +40,7 @@ def run_quiz(iterations, sides, answer_func):
     
 
 
-# layer 3
-
+# layer 3 (UI, I/O)
 
 def main():
     min_sides = 3
